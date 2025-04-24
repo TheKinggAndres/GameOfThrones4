@@ -3,7 +3,7 @@ function mostrarUsuario() {
     app.innerHTML = "";
   
     // Establecer la imagen de fondo en toda la pantalla
-    app.style.backgroundImage = "url('https://i.pinimg.com/736x/ac/3b/a9/ac3ba956df0dbd89798da01fbb955ea9.jpg')"; // Reemplaza con la URL de tu imagen
+    app.style.backgroundImage = "url('https://i.pinimg.com/736x/ac/3b/a9/ac3ba956df0dbd89798da01fbb955ea9.jpg')"; 
     app.style.backgroundSize = "cover"; // Asegura que la imagen cubra toda la pantalla
     app.style.backgroundPosition = "center"; // Centra la imagen
     app.style.backgroundAttachment = "fixed"; // Fija la imagen para que no se desplace al hacer scroll

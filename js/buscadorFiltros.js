@@ -2,7 +2,7 @@ let personajesGlobal = [];
 
 // Función para cargar los personajes
 async function cargarPersonajes() {
-  personajesGlobal = await obtenerPersonajes(); // usa la función de apiGot.js
+  personajesGlobal = await obtenerPersonajes(); 
   renderizarLista(personajesGlobal);
 }
 
